@@ -1,0 +1,72 @@
+<html>
+<head>
+<title>my code</title>
+</head>
+<body>
+<h2>#class InsertingDataForm(forms.Form):
+    product_id=forms.IntegerField(
+        label="enter product id",
+        widget=forms.NumberInput(
+            attrs={
+                'class':'form-control',
+                'placeholder':'product_id'
+            }
+        )
+    )
+    product_name = forms.CharField(
+        label="enter product name",
+        widget=forms.TextInput(
+            attrs={
+                'class': 'form-control',
+                'placeholder': 'product_name'
+            }
+        )
+    )
+    product_price = forms.IntegerField(
+        label="enter product price",
+        widget=forms.NumberInput(
+            attrs={
+                'class': 'form-control',
+                'placeholder': 'product_price'
+            }
+        )
+    )
+    product_class = forms.CharField(
+        label="enter product_class",
+        widget=forms.TextInput(
+            attrs={
+                'class': 'form-control',
+                'placeholder': 'product_class'
+            }
+        )
+    )
+    customer_name = forms.CharField(
+        label="enter customer name",
+        widget=forms.TextInput(
+            attrs={
+                'class': 'form-control',
+                'placeholder': 'customer name'
+            }
+        )
+    )
+    mobile = forms.IntegerField(
+        label="enter mobile",
+        widget=forms.NumberInput(
+            attrs={
+                'class': 'form-control',
+                'placeholder': 'mobile'
+            }
+        )
+    )
+    email = forms.EmailField(
+        label="enter Email id",
+        widget=forms.EmailInput(
+            attrs={
+ #               'class': 'form-control',
+ #               'placeholder': 'email'
+ #           }
+#        )
+#    )
+</h2>
+</body>
+</html>
